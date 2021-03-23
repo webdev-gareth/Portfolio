@@ -5,10 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gareth Parry-Ralphs - Portfolio</title>
     <link rel="stylesheet" href="./src/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="links" id="top">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#social">Social</a>
+            </div>
+        </nav>
+    </header>
 
+    <main>
+        <div class="name">
+            <h1>Gareth Parry-Ralphs</h1>
+            
+            <img class="profile-picture" src="./src/images/profile-image.png" alt="Profile Picture">
+        </div>
+        
+
+        <!-- ABOUT SECTION -->
+
+        <h2 id="about">About Me</h2>
+        <div class="description">
+            <p>Hi, I'm Gareth. In years gone by I was a Flexographic Printer, now, I'm a Junior Web Developer. I started my developer path a couple of years ago as a hobby and quickly realised I had a great passion for coding.</p>
+
+            <p>Once I realised this passion I quickly set about finding a way to make a career change and make developing websites my profession.</p>
+
+            <p>Coding has become my happy place and the thought of being able to earn my living with what is essentially a hobby fills me with happiness.</p>
+
+            <p>Over the past 2 years I have been working with HTML, CSS and JavaScript mainly, with insights into frameworks and libraries such as React and Node JS.</p>
+
+            <p>I have a working understanding of Git, and have used it on many projects I have undertaken to keep track of changes I've made along the way and also pushing my conpleted projects up to my github page.</p> 
+        </div>
+
+        <!-- PROJECT SECTION -->
+
+        <div id="projects" class="projects">
+            <h2>Projects</h2>
+
+            <div class="grid-layout">
+                <a id="link1" href="http://single-price-grid-component.webdev-gareth.vercel.app/" target="blank"><img src="./src/images/grid.png" alt=""></a>
+            <a id="link2" href="http://article-preview-component-git-main.webdev-gareth.vercel.app/" target="blank"><img src="./src/images/article.png" alt=""></a>
+            <a id="link3" href="http://four-card-feature-section-ten-psi.vercel.app/" target="blank"><img src="./src/images/card.png" alt=""></a>
+            </div>
+        </div>
+
+        <!-- SOCIAL SECTION -->
+
+        <div id="social" class="wrapper">
+            <div id="social-btn" class="social-btn-wrapper">
+                <p id="social-btn" class="social-btn">Social</p>
+            </div>
+
+            <div id="social-menu" class="social-menu social-hidden">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-twitter-square"></i>            
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p class="email">garethparryralphs@gmail.com</p>
+    </footer>
+    
     <script src="./src/js/script.js"></script>
 </body>
 </html>
